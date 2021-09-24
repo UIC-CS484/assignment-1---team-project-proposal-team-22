@@ -1,0 +1,42 @@
+:root{
+  /* Global Constants */
+  --color-surface : rgb(18, 18, 18);
+  --color-surface-secondary: rgba(255,255,255, 0.1);
+  --color-accent : #66bb6a;
+  --color-on-surface: #ffffff;
+  --color-link: #1976d2;
+  --color-link-visited: #b39ddb
+}
+
+.container{
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+}
+
+body{
+  background-color: var(--color-surface);
+  color: var(--color-text);
+}
+
+a{
+  color: var(--color-link);
+}
+
+a:visited{
+  color: var(--color-link-visited);
+}
+
+section{
+  background-color: var(--color-surface-secondary);
+  border-left-color: var(--color-accent);
+  border-left-style: solid;
+  border-left-width: 5px;
+  border-radius: 5px;
+  padding: 5px;
+  margin: 10px;
+}
+
+header{
+  text-align: center;
+}
