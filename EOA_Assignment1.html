@@ -14,7 +14,7 @@
 
     <link rel="stylesheet" href="Stylesheet.css">
 
-    <script src="Script.js" charset="utf-8" defer>
+    <script src="Script.js" defer>
 
     </script>
 
@@ -29,26 +29,45 @@
 
       <section id="main_section1">
 
-        <!-- Potential APIs -->
-        <a href="https://api.gbif.org/v1/">
-          <abbr title="Global Biodiversity Information Facility">GBIF</abbr>
-          REST API
-        </a>
+        <h3>What RESTful APIs will be used?</h3>
 
-        <a href="https://en.wikipedia.org/api/rest_v1/">Wikimedia REST API</a>
+        <dl>
+          <dt>
+            <a href="https://api.gbif.org/v1/">
+              <abbr title="Global Biodiversity Information Facility">GBIF</abbr>
+              REST API
+            </a>
+          </dt>
+          <dd>
+            This API is the primary source of data. It'll provide almost all
+            required information about each animal species. This data will be
+            used highlight critically endangered species.
+          </dd>
 
-        <!-- How will the API data be useful -->
+          <dt>
+            <a href="https://en.wikipedia.org/api/rest_v1/">Wikimedia REST API</a>
+          </dt>
+
+          <dd>
+            This'll be used to complement the GBIF data, by providing the user
+            with images, short description and other information about the species.
+          </dd>
+
+        </dl>
+
         <p>
 
         </p>
 
-        <!-- What data will be collected -->
+        <h3>What data will be collected from authenticated users?</h3>
+
         <p>
           Besides the user's email, all that will be stored are the comments
           written by the user and a list of species that they're interested in
         </p>
 
-        <!-- List of entities and attributes -->
+        <h3>What are the entities and their attributes that'll be stored in
+          the database?</h3>
         <ul>
           <li>User -> email, username, interestedSpecies, commentIDs</li>
           <li>
@@ -64,12 +83,17 @@
 
       <section id="main_section2">
 
-        <!-- User Base -->
-        <p>
+        <h3>Who are the potential users of this website?</h3>
 
+        <p>
+          People who are already passionate about conservation and rewilding.
+          However, more importantly, this website can be a good starting point
+          anyone who isn't convinced to the scale of the problems faced today.
+          So, it can act as a means for the aforementioned group to spread awareness.
         </p>
 
-        <!-- Goals -->
+        <h3>What are the goals that this website hopes to achieve?</h3>
+
         <ul>
           <li>
             To spread awareness about the scale at which wildlife is being
@@ -81,9 +105,10 @@
           <li>
             Provide resources for people who want to help and take action.
           </li>
-        <ul>
+        </ul>
 
-        <!-- Why this topic -->
+        <h3>Why was this topic selected?</h3>
+
         <p>
           Although, at this point most people are aware of the problems that
           this planet is facing. I believe most of them are still unaware about
@@ -97,11 +122,42 @@
       <footer>
 
         <section id="footer_section1">
-          <!-- Links -->
+          <h4>Helpful Resources</h4>
+          <ul>
+            <li>
+              <a href="https://material.io/">Material.io</a>
+            </li>
+            <li>
+              <a href="https://developer.mozilla.org/">MDN Web Docs</a>
+            </li>
+          </ul>
+
+          <h4>Websites for design inspiration</h4>
+          <ul>
+            <li>
+              <a href="https://material.io/design/material-studies/fortnightly.html">
+                Fortnightly
+              </a>
+            </li>
+            <li>
+              <a href="https://keep.google.com/">Google Keep!</a>
+            </li>
+          </ul>
+
         </section>
 
         <section id="footer_section2">
-          <!-- Questions -->
+
+          <h4>Questions and Concerns</h4>
+          <ul style="list-style:none">
+            <li>
+              So, far I haven't been able to find an API, which gives animal
+              population data, which was the goal. However, the APIs listed above
+              do provide status (extinct, endangered, etc) and other info, which
+              will suffice, if no other API is available.
+            </li>
+          </ul>
+
         </section>
 
         <section id="footer_section3">

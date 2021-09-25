@@ -1,8 +1,8 @@
 :root{
   /* Global Constants */
   --color-surface : rgb(18, 18, 18);
-  --color-surface-secondary: rgba(255,255,255, 0.1);
-  --color-accent : #66bb6a;
+  --color-surface-secondary: rgba(255,255,255, 0.05);
+  --color-accent : #44bb44;
   --color-on-surface: #ffffff;
   --color-link: #1976d2;
   --color-link-visited: #b39ddb
@@ -49,6 +49,7 @@ section{
 
 header{
   text-align: center;
+  color: var(--color-accent);
 
   grid-column: 1 / -1;
   grid-row: 1 / 2;
@@ -83,6 +84,28 @@ footer > section{
 #footer_section3{
   margin-left: 1em;
 }
+
+h3 + p{
+  padding-left: 2em;
+}
+
+h3{
+  padding-left: 0.5em;
+}
+
+dt{
+  margin: 1em;
+}
+
+ul{
+  margin: 0.2em;
+}
+
+h4{
+  margin: 0.2em;
+  padding-left: 0.5em;
+}
+
 
 @media (orientation: portrait){
   .container{
