@@ -26,7 +26,7 @@ should work just fine.
 * Browser - [Firefox](https://www.mozilla.org/en-US/firefox/new/)
 * Material.io [Color Tool](https://material.io/resources/color/#!/)
 * [Markdown Live Preview](https://markdownlivepreview.com/)
-* [Webfont Generator](https://www.fontsquirrel.com/tools/webfont-generator)
+* [Online Font Converter](https://onlinefontconverter.com/)
 * Reference and Tutorials:
   * HTML, CSS, JS Reference - [MDN](https://developer.mozilla.org/en-US/docs/Learn)
 
@@ -34,3 +34,4 @@ should work just fine.
 
 * Logo - [Tree Favicon](https://www.favicon.cc/?action=icon&file_id=795443)
 * Title Font - [Twiggy](https://www.dafont.com/twiggy.font)
+* Of course, a little help from [Stack Overflow](https://stackoverflow.com/a/16461139)
