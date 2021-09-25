@@ -1,7 +1,7 @@
 
 #### Creator - Meer Piyush Shah
 
-#### [Assignment-1 Page](index.html)
+#### [Assignment-1 Page](https://uic-cs484.github.io/assignment-1---team-project-proposal-team-22/)
 
 #### Branching Strategy :
 
